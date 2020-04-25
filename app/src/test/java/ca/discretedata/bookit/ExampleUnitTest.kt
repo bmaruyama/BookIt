@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2020. Discrete Data Inc.
+ */
+
 package ca.discretedata.bookit
 
 import org.junit.Test
