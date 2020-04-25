@@ -24,7 +24,9 @@ data class Book (
     @ColumnInfo(name = "query_order")
     val queryOrder: Long,
 
-    @ColumnInfo(name = "searchText", index = true)
+    // Index this column as this is a simplified way of gathering the records together.
+    // If the app required search history, then a Search table with a foreign key would be useful.
+    @ColumnInfo(name = "search_text", index = true)
     val searchText: String
 
 ) {
