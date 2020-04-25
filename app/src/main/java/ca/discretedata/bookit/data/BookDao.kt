@@ -5,12 +5,7 @@
 package ca.discretedata.bookit.data
 
 import androidx.lifecycle.LiveData
-import androidx.room.Dao
-import androidx.room.Delete
-import androidx.room.Insert
-import androidx.room.OnConflictStrategy
-import androidx.room.Query
-import androidx.room.Transaction
+import androidx.room.*
 
 @Dao
 interface BookDao {
@@ -37,6 +32,12 @@ interface BookDao {
      */
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertBook(book: Book)
+
+    /**
+     * Insert a list of books. Assumes single inserts will involve multiple transactions.
+     */
+    @Insert
+    suspend fun insertBookList(books: List<Book>)
 
     /**
      * Delete a book
