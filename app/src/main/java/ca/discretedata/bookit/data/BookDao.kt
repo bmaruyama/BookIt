@@ -12,8 +12,8 @@ interface BookDao {
     /**
      * Get books associated with the search text.
      */
-    @Query("SELECT * FROM books WHERE search_text ORDER BY query_order ASC")
-    fun getSearchTextBooks(): LiveData<List<Book>>
+    @Query("SELECT * FROM books WHERE search_text = :searchText ORDER BY query_order ASC")
+    fun getSearchTextBooks(searchText: String): LiveData<List<Book>>
 
     /**
      * Get all books
