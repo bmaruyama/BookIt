@@ -11,7 +11,7 @@
     tools:context=".MainActivity">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerview"
+        android:id="@+id/bookList"
         android:layout_width="0dp"
         android:layout_height="0dp"
         tools:listitem="@layout/book_list_item"
