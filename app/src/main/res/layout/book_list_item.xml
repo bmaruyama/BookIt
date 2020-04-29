@@ -6,46 +6,58 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:padding="8dp"
-    android:background="@android:color/holo_orange_light"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <ImageView
         android:id="@+id/bookJacket"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:adjustViewBounds="true"
         android:background="@android:color/holo_blue_light"
-        app:layout_constraintBottom_toTopOf="@+id/bookTitle"
+        app:layout_constraintBottom_toTopOf="@id/textLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.74" />
-    <TextView
-        android:id="@+id/bookTitle"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="top|start"
-        android:layout_marginTop="8dp"
-        android:background="@android:color/holo_green_light"
-        app:layout_constraintBottom_toTopOf="@+id/bookAuthors"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bookJacket" />
-    <TextView
-        android:id="@+id/bookAuthors"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/textLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center|start"
-        android:ellipsize="end"
-        android:maxLines="2"
-        android:background="@android:color/holo_red_light"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        android:background="@android:color/holo_orange_light"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bookTitle" />
+        app:layout_constraintTop_toTopOf="@id/bookJacket">
+
+        <TextView
+            android:id="@+id/bookTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/holo_green_light"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="24sp"
+            tools:text="This is a Test" />
+
+        <TextView
+            android:id="@+id/bookAuthors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/holo_red_light"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="18sp"
+            tools:text="Author" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
