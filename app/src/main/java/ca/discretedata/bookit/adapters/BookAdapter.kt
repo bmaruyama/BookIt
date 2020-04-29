@@ -31,24 +31,22 @@ class BookAdapter : ListAdapter<Book, BookAdapter.ViewHolder>(
         private val binding: BookListItemBinding
     ) : RecyclerView.ViewHolder(binding.root)  {
 
-        private val viewModel: BookSearchViewModel? = null
-
         fun bind(book: Book) {
             with(binding) {
                 bookTitle.text = book.title
                 bookAuthors.text = book.authors
                 // TODO: leave jacket image display for later
-                if (book.jacketUrl.isNullOrEmpty()) {
-                    // An empty URL means only show title and authors
-                    bookJacket.visibility = View.GONE
-                    bookTitle.visibility = View.VISIBLE
-                    bookAuthors.visibility = View.VISIBLE
-                } else {
-                    // A valid URL means show the jacket only
-                    bookJacket.visibility = View.VISIBLE
-                    bookTitle.visibility = View.GONE
-                    bookAuthors.visibility = View.GONE
-                }
+//                if (book.jacketUrl.isNullOrEmpty()) {
+//                    // An empty URL means only show title and authors
+//                    bookJacket.visibility = View.GONE
+//                    bookTitle.visibility = View.VISIBLE
+//                    bookAuthors.visibility = View.VISIBLE
+//                } else {
+//                    // A valid URL means show the jacket only
+//                    bookJacket.visibility = View.VISIBLE
+//                    bookTitle.visibility = View.GONE
+//                    bookAuthors.visibility = View.GONE
+//                }
             }
         }
     }

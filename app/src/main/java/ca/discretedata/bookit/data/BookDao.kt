@@ -36,7 +36,7 @@ interface BookDao {
     /**
      * Insert a list of books. Assumes single inserts will involve multiple transactions.
      */
-    @Insert
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertBookList(books: List<Book>)
 
     /**

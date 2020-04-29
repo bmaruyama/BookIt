@@ -1,0 +1,612 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 2584,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "0XYA1SlYNeMC",
+      "etag": "sEK6Xv03bR0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/0XYA1SlYNeMC",
+      "volumeInfo": {
+        "title": "The Great Gatsby",
+        "authors": [
+          "F. Scott Fitzgerald",
+          "Peter Joucla"
+        ],
+        "publisher": "Oberon Books",
+        "publishedDate": "2012-06-26",
+        "description": "So we beat on, boats against the current, borne back ceaselessly into the past. ‘F. Scott Fitzgerald’s novel The Great Gatsby was first published on April 10, 1925. Set on Long Island’s North Shore and in New York City during the summer of 1922, it is the story of an attractive young man, hopelessly in love, who, having worked so hard to improve himself so he can win back the woman he loves, finds himself in a world where money has replaced humility and despair has replaced hope. For me, the novel is a comment on the values and cynicism of east coast America almost a hundred years ago, a time when a section of society had suddenly become very wealthy and the American Dream was for most, nothing more than the mere pursuit of money.’ Peter Joucla ‘Peter Joucla’s surprisingly clear-eyed adaptation cuts to the heart of Fitzgerald’s text while preserving a very decent amount of it.’ 4 stars –Evening Standard ‘Evoking all the glamour and atmosphere of the roaring twenties, Wilton’s brings Gatsby to glorious, all-singing, all-dancing life (jazz hands optional). A must-see’ – welovethisbook.com ‘An unashamed nostalgia party for a world we never knew... This is a show that majors in fun; and it’s no surprise to see it’s a cult hit.’ Telegraph",
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.7.5.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=0XYA1SlYNeMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=0XYA1SlYNeMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "previewLink": "http://books.google.ca/books?id=0XYA1SlYNeMC&printsec=frontcover&dq=The+Great+Gatsby&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=0XYA1SlYNeMC&dq=The+Great+Gatsby&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Great_Gatsby.html?hl=&id=0XYA1SlYNeMC"
+      },
+      "saleInfo": {
+        "country": "CA"
+      },
+      "accessInfo": {
+        "country": "CA",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/The_Great_Gatsby-sample-epub.acsm?id=0XYA1SlYNeMC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/The_Great_Gatsby-sample-pdf.acsm?id=0XYA1SlYNeMC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "accessViewStatus": "SAMPLE"
+      },
+      "searchInfo": {
+        "textSnippet": "A must-see’ – welovethisbook.com ‘An unashamed nostalgia party for a world we never knew... This is a show that majors in fun; and it’s no surprise to see it’s a cult hit.’ Telegraph"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "N1JODwAAQBAJ",
+      "etag": "vZ071D1SUJ0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/N1JODwAAQBAJ",
+      "volumeInfo": {
+        "title": "THE GREAT GATSBY (1925 Edition)",
+        "authors": [
+          "F. Scott Fitzgerald"
+        ],
+        "publisher": "e-artnow",
+        "publishedDate": "2017-12-06",
+        "description": "The Great Gatsby is a novel written by American author F. Scott Fitzgerald and first published in 1925. It follows a cast of characters living in the fictional town of West Egg on prosperous Long Island in the summer of 1922. The story primarily concerns the young and mysterious millionaire Jay Gatsby and his quixotic passion for the beautiful Daisy Buchanan. Considered to be Fitzgerald's magnum opus, The Great Gatsby explores themes of decadence, idealism, resistance to change, social upheaval, and excess, creating a portrait of the Jazz Age or the Roaring Twenties that has been described as a cautionary tale regarding the American Dream. Francis Scott Key Fitzgerald (1896 – 1940) was an American author of novels and short stories, whose works are the paradigmatic writings of the Jazz Age, a term he coined. He is widely regarded as one of the greatest American writers of the 20th century.",
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.2.3.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=N1JODwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=N1JODwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "previewLink": "http://books.google.ca/books?id=N1JODwAAQBAJ&printsec=frontcover&dq=The+Great+Gatsby&hl=&cd=2&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=N1JODwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=N1JODwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "listPrice": {
+          "amount": 0.76,
+          "currencyCode": "CAD"
+        },
+        "retailPrice": {
+          "amount": 0.76,
+          "currencyCode": "CAD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=N1JODwAAQBAJ&rdid=book-N1JODwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 760000,
+              "currencyCode": "CAD"
+            },
+            "retailPrice": {
+              "amountInMicros": 760000,
+              "currencyCode": "CAD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "CA",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/THE_GREAT_GATSBY_1925_Edition-sample-epub.acsm?id=N1JODwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/THE_GREAT_GATSBY_1925_Edition-sample-pdf.acsm?id=N1JODwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "accessViewStatus": "SAMPLE"
+      },
+      "searchInfo": {
+        "textSnippet": "The story primarily concerns the young and mysterious millionaire Jay Gatsby and his quixotic passion for the beautiful Daisy Buchanan."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "jkkeAwAAQBAJ",
+      "etag": "ssYaV00SmH4",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/jkkeAwAAQBAJ",
+      "volumeInfo": {
+        "title": "So We Read On",
+        "subtitle": "How The Great Gatsby Came to Be and Why It Endures",
+        "authors": [
+          "Maureen Corrigan"
+        ],
+        "publisher": "Little, Brown",
+        "publishedDate": "2014-09-09",
+        "description": "The \"Fresh Air\" book critic investigates the enduring power of The Great Gatsby -- \"The Great American Novel we all think we've read, but really haven't.\" Conceived nearly a century ago by a man who died believing himself a failure, it's now a revered classic and a rite of passage in the reading lives of millions. But how well do we really know The Great Gatsby? As Maureen Corrigan, Gatsby lover extraordinaire, points out, while Fitzgerald's masterpiece may be one of the most popular novels in America, many of us first read it when we were too young to fully comprehend its power. Offering a fresh perspective on what makes Gatsby great-and utterly unusual-So We Read On takes us into archives, high school classrooms, and even out onto the Long Island Sound to explore the novel's hidden depths, a journey whose revelations include Gatsby's surprising debt to hard-boiled crime fiction, its rocky path to recognition as a \"classic,\" and its profound commentaries on the national themes of race, class, and gender. With rigor, wit, and infectious enthusiasm, Corrigan inspires us to re-experience the greatness of Gatsby and cuts to the heart of why we are, as a culture, \"borne back ceaselessly\" into its thrall. Along the way, she spins a new and fascinating story of her own.",
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.7.8.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=jkkeAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=jkkeAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "previewLink": "http://books.google.ca/books?id=jkkeAwAAQBAJ&printsec=frontcover&dq=The+Great+Gatsby&hl=&cd=3&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=jkkeAwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=jkkeAwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "listPrice": {
+          "amount": 6.99,
+          "currencyCode": "CAD"
+        },
+        "retailPrice": {
+          "amount": 6.99,
+          "currencyCode": "CAD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=jkkeAwAAQBAJ&rdid=book-jkkeAwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 6990000,
+              "currencyCode": "CAD"
+            },
+            "retailPrice": {
+              "amountInMicros": 6990000,
+              "currencyCode": "CAD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "CA",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/So_We_Read_On-sample-epub.acsm?id=jkkeAwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "accessViewStatus": "SAMPLE"
+      },
+      "searchInfo": {
+        "textSnippet": "Offering a fresh perspective on what makes Gatsby great -- and utterly unusual -- So We Read On takes us into archives, high school classrooms, and even out onto the Long Island Sound to explore the novel&#39;s hidden depths, a journey whose ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "aKFjDwAAQBAJ",
+      "etag": "a7LVgtTOCas",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/aKFjDwAAQBAJ",
+      "volumeInfo": {
+        "title": "The Great Gatsby (Unabridged)",
+        "authors": [
+          "F. Scott Fitzgerald"
+        ],
+        "publisher": "e-artnow",
+        "publishedDate": "2013-05-01",
+        "description": "This carefully crafted ebook: \" The Great Gatsby (Unabridged)\" is formatted for your eReader with a functional and detailed table of contents. \"The Great Gatsby\" is a novel by the American author F. Scott Fitzgerald. The story takes place in 1922, during the Roaring Twenties, a time of prosperity in the United States after World War I. The book received critical acclaim and is generally considered Fitzgerald's best work. It is also widely regarded as a \"Great American Novel\" and a literary classic, capturing the essence of an era. The Modern Library named it the second best English language novel of the 20th century. The novel takes place following the First World War. American society enjoyed prosperity during the \"roaring\" 1920s as the economy soared. At the same time, Prohibition, the ban on the sale and manufacture of alcohol as mandated by the Eighteenth Amendment, made millionaires out of bootleggers...",
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.3.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=aKFjDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=aKFjDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "previewLink": "http://books.google.ca/books?id=aKFjDwAAQBAJ&printsec=frontcover&dq=The+Great+Gatsby&hl=&cd=4&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=aKFjDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=aKFjDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "listPrice": {
+          "amount": 0.76,
+          "currencyCode": "CAD"
+        },
+        "retailPrice": {
+          "amount": 0.76,
+          "currencyCode": "CAD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=aKFjDwAAQBAJ&rdid=book-aKFjDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 760000,
+              "currencyCode": "CAD"
+            },
+            "retailPrice": {
+              "amountInMicros": 760000,
+              "currencyCode": "CAD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "CA",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/The_Great_Gatsby_Unabridged-sample-epub.acsm?id=aKFjDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/The_Great_Gatsby_Unabridged-sample-pdf.acsm?id=aKFjDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "accessViewStatus": "SAMPLE"
+      },
+      "searchInfo": {
+        "textSnippet": "The story takes place in 1922, during the Roaring Twenties, a time of prosperity in the United States after World War I. The book received critical acclaim and is generally considered Fitzgerald&#39;s best work."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "klMWVELASj0C",
+      "etag": "AV5+01aM4Qk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/klMWVELASj0C",
+      "volumeInfo": {
+        "title": "F. Scott Fitzgerald's the Great Gatsby",
+        "authors": [
+          "Harold Bloom"
+        ],
+        "publisher": "Infobase Publishing",
+        "publishedDate": "2010",
+        "description": "Presents a series of critical essays discussing the structure, themes, and subject matter of Fitzgerald's story of the love between wealthy Jay Gatsby and the beautiful Daisy Buchanan.",
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.3",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=klMWVELASj0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=klMWVELASj0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "previewLink": "http://books.google.ca/books?id=klMWVELASj0C&printsec=frontcover&dq=The+Great+Gatsby&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=klMWVELASj0C&dq=The+Great+Gatsby&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/F_Scott_Fitzgerald_s_the_Great_Gatsby.html?hl=&id=klMWVELASj0C"
+      },
+      "saleInfo": {
+        "country": "CA"
+      },
+      "accessInfo": {
+        "country": "CA",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/F_Scott_Fitzgerald_s_the_Great_Gatsby-sample-epub.acsm?id=klMWVELASj0C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/F_Scott_Fitzgerald_s_the_Great_Gatsby-sample-pdf.acsm?id=klMWVELASj0C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "accessViewStatus": "SAMPLE"
+      },
+      "searchInfo": {
+        "textSnippet": "Presents a series of critical essays discussing the structure, themes, and subject matter of Fitzgerald&#39;s story of the love between wealthy Jay Gatsby and the beautiful Daisy Buchanan."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "adjCx-wnhWsC",
+      "etag": "0oBRmLnXRbQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/adjCx-wnhWsC",
+      "volumeInfo": {
+        "title": "The Great Gatsby",
+        "authors": [
+          "Harold Bloom"
+        ],
+        "publisher": "Infobase Publishing",
+        "publishedDate": "2006",
+        "description": "Discusses the characters, plot, and writing of The great Gatsby by F. Scott Fitzgerald. Includes critical essays on the novel and a brief biography of the author.",
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.0.1.0.preview.3",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=adjCx-wnhWsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=adjCx-wnhWsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "previewLink": "http://books.google.ca/books?id=adjCx-wnhWsC&printsec=frontcover&dq=The+Great+Gatsby&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=adjCx-wnhWsC&dq=The+Great+Gatsby&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Great_Gatsby.html?hl=&id=adjCx-wnhWsC"
+      },
+      "saleInfo": {
+        "country": "CA"
+      },
+      "accessInfo": {
+        "country": "CA",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/The_Great_Gatsby-sample-epub.acsm?id=adjCx-wnhWsC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/The_Great_Gatsby-sample-pdf.acsm?id=adjCx-wnhWsC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "accessViewStatus": "SAMPLE"
+      },
+      "searchInfo": {
+        "textSnippet": "Presents critical essays on F. Scott Fitzgerald&#39;s &quot;The Great Gatsby&quot; and includes a chronology, a bibliography, and an introduction by critic Harold Bloom."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "yOnYCwAAQBAJ",
+      "etag": "KJPBOXgTmdk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/yOnYCwAAQBAJ",
+      "volumeInfo": {
+        "title": "Careless People",
+        "subtitle": "Murder, Mayhem, and the Invention of the Great Gatsby",
+        "authors": [
+          "Sarah Churchwell"
+        ],
+        "publisher": "Penguin Group USA",
+        "publishedDate": "2015-01-27",
+        "description": "Originally published: London: Virago, 2013",
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=yOnYCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=yOnYCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "previewLink": "http://books.google.ca/books?id=yOnYCwAAQBAJ&printsec=frontcover&dq=The+Great+Gatsby&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=yOnYCwAAQBAJ&dq=The+Great+Gatsby&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Careless_People.html?hl=&id=yOnYCwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "CA"
+      },
+      "accessInfo": {
+        "country": "CA",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "accessViewStatus": "SAMPLE"
+      },
+      "searchInfo": {
+        "textSnippet": "Originally published: London: Virago, 2013"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "l1PDDAAAQBAJ",
+      "etag": "lfEkqH+QJlg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/l1PDDAAAQBAJ",
+      "volumeInfo": {
+        "title": "The Great Gatsby : Om Illustrated Classics",
+        "subtitle": "",
+        "authors": [
+          "F Scott Fitzgerald"
+        ],
+        "publisher": "Om Books International",
+        "description": "In The Great Gatsby, F. Scott Fitzgerald introduces the reader to the post-war America and offers a gripping social commentary on the themes of power, crime, betrayal, greed and a vivid peek into the American life in the 1920s, also known as the ‘Roaring Twenties’. In the summer of 1922, Nick Carraway arrives in New York in pursuit of the big American dream. Nick, the story’s narrator, moves in next door to the mysterious millionaire Jay Gatsby, the host of lavish weekly parties for the rich and the fashionable. Across the bay reside Nick’s distant cousin Daisy and her philandering husband, Tom, an old classmate from Yale. Being the only link between Gatsby and his long lost love, Nick gets drawn into the enthralling world of the rich and takes the reader along on the ride, as he bears witness to their follies and emerges a new enlightened man.",
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.1.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=l1PDDAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=l1PDDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "previewLink": "http://books.google.ca/books?id=l1PDDAAAQBAJ&printsec=frontcover&dq=The+Great+Gatsby&hl=&cd=8&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=l1PDDAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=l1PDDAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "listPrice": {
+          "amount": 1.4,
+          "currencyCode": "CAD"
+        },
+        "retailPrice": {
+          "amount": 1.4,
+          "currencyCode": "CAD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=l1PDDAAAQBAJ&rdid=book-l1PDDAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 1400000,
+              "currencyCode": "CAD"
+            },
+            "retailPrice": {
+              "amountInMicros": 1400000,
+              "currencyCode": "CAD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "CA",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/The_Great_Gatsby_Om_Illustrated_Classics-sample-pdf.acsm?id=l1PDDAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "accessViewStatus": "SAMPLE"
+      },
+      "searchInfo": {
+        "textSnippet": "In The Great Gatsby, F. Scott Fitzgerald introduces the reader to the post-war America and offers a gripping social commentary on the themes of power, crime, betrayal, greed and a vivid peek into the American life in the 1920s, also known ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "nkZdDwAAQBAJ",
+      "etag": "3iF/ypgMvnU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/nkZdDwAAQBAJ",
+      "volumeInfo": {
+        "title": "The Great Gatsby",
+        "publisher": "Macmillan International Higher Education",
+        "publishedDate": "1990-06-27",
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.1.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=nkZdDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=nkZdDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "previewLink": "http://books.google.ca/books?id=nkZdDwAAQBAJ&printsec=frontcover&dq=The+Great+Gatsby&hl=&cd=9&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=nkZdDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=nkZdDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "CA",
+        "listPrice": {
+          "amount": 18.17,
+          "currencyCode": "CAD"
+        },
+        "retailPrice": {
+          "amount": 9.99,
+          "currencyCode": "CAD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=nkZdDwAAQBAJ&rdid=book-nkZdDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 18170000,
+              "currencyCode": "CAD"
+            },
+            "retailPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "CAD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "CA",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/The_Great_Gatsby-sample-pdf.acsm?id=nkZdDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "accessViewStatus": "SAMPLE"
+      },
+      "searchInfo": {
+        "textSnippet": "Bathtub gin, flappers and house parties that last all week enliven Fitzgerald&#39;s classic tale, a startling portrait of Gatsby&#39;s search for meaning in his opulent world."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "olcF7OVfQfkC",
+      "etag": "z0l2jPnq2dc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/olcF7OVfQfkC",
+      "volumeInfo": {
+        "title": "The Great Gatsby",
+        "subtitle": "Study Guide",
+        "authors": [
+          "Total Class Notes"
+        ],
+        "publisher": "Total Class Notes",
+        "publishedDate": "2012-02-01",
+        "description": "Don't want to read the actual book? Tired of reading super long reviews? This new study guide is perfect for you!! This study guide provides a short and concise review guide of The Great Gatsby by F. Scott Fitzgerald. The guide includes: · A short summary of the entire novel · The major themes and their relationship to the storyline · A character guide with brief details on each role · Bullet-point chapter reviews that go into more detail than the book summary · A few potential essay topics with possible answers. All of this in-depth study guide is designed to make studying more efficient and fun. Stay tuned for our upcoming updates that will include additional quiz questions, audio guides and more tools that will help you easily learn and prepare for school. Need help or have suggestions for us? Email us at info@totalgroupmobile.com and we will get back to you as soon as possible. @TheTotalGroup",
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.0.1.0.preview.3",
+        "imageLinks": {
+        },
+        "previewLink": "http://books.google.ca/books?id=olcF7OVfQfkC&printsec=frontcover&dq=The+Great+Gatsby&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.ca/books?id=olcF7OVfQfkC&dq=The+Great+Gatsby&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Great_Gatsby.html?hl=&id=olcF7OVfQfkC"
+      },
+      "saleInfo": {
+        "country": "CA"
+      },
+      "accessInfo": {
+        "country": "CA",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/The_Great_Gatsby-sample-epub.acsm?id=olcF7OVfQfkC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ca/books/download/The_Great_Gatsby-sample-pdf.acsm?id=olcF7OVfQfkC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "accessViewStatus": "SAMPLE"
+      },
+      "searchInfo": {
+        "textSnippet": "Don&#39;t want to read the actual book? Tired of reading super long reviews? This new study guide is perfect for you!! This study guide provides a short and concise review guide of The Great Gatsby by F. Scott Fitzgerald."
+      }
+    }
+  ]
+}
