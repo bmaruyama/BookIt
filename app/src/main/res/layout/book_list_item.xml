@@ -7,34 +7,53 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/holo_blue_light"
     android:padding="8dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/bookJacket"
+    <LinearLayout
+        android:id="@+id/imageLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
-        android:adjustViewBounds="true"
-        android:background="@android:color/holo_blue_light"
-        app:layout_constraintBottom_toTopOf="@id/textLayout"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        android:background="@android:color/holo_red_light"
+        app:layout_constraintBottom_toTopOf="@+id/textLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/bookJacket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/holo_blue_light"
+            android:src="@drawable/ic_search"
+            android:contentDescription="@string/jacket_content_description" />
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/textLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginBottom="8dp"
-        android:orientation="vertical"
-        android:background="@android:color/holo_orange_light"
 
+        android:background="@android:color/holo_orange_light"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/bookJacket">
+        app:layout_constraintTop_toBottomOf="@id/imageLayout">
 
         <TextView
             android:id="@+id/bookTitle"
@@ -53,7 +72,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="8dp"
-            android:background="@android:color/holo_red_light"
+            android:background="@android:color/holo_purple"
             android:ellipsize="end"
             android:maxLines="2"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"

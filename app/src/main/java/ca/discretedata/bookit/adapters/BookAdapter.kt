@@ -36,17 +36,15 @@ class BookAdapter : ListAdapter<Book, BookAdapter.ViewHolder>(
                 bookTitle.text = book.title
                 bookAuthors.text = book.authors
                 // TODO: leave jacket image display for later
-//                if (book.jacketUrl.isNullOrEmpty()) {
-//                    // An empty URL means only show title and authors
-//                    bookJacket.visibility = View.GONE
-//                    bookTitle.visibility = View.VISIBLE
-//                    bookAuthors.visibility = View.VISIBLE
-//                } else {
-//                    // A valid URL means show the jacket only
-//                    bookJacket.visibility = View.VISIBLE
-//                    bookTitle.visibility = View.GONE
-//                    bookAuthors.visibility = View.GONE
-//                }
+                if (book.jacketUrl.isNullOrEmpty()) {
+                    // An empty URL means only show title and authors
+                    imageLayout.visibility = View.GONE
+                    textLayout.visibility = View.VISIBLE
+                } else {
+                    // A valid URL means show the jacket only
+                    imageLayout.visibility = View.VISIBLE
+                    textLayout.visibility = View.GONE
+                }
             }
         }
     }
