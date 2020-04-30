@@ -35,7 +35,6 @@ class BookAdapter(private val requestManager: RequestManager) :
             with(binding) {
                 bookTitle.text = book.title
                 bookAuthors.text = book.authors
-                // TODO: leave jacket image display for later
                 if (book.jacketUrl.isEmpty()) {
                     // An empty URL means only show title and authors
                     imageLayout.visibility = View.GONE
