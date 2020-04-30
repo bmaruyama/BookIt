@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity() {
         // Check for a search intent
         if (Intent.ACTION_SEARCH == intent.action) {
             intent.getStringExtra(SearchManager.QUERY)?.also { query ->
-                // Set the query in saved state.
+                // Set the query in the view model, which will trigger a call to the repository.
                 bookViewModel.updateSearchText(query)
             }
         }
@@ -83,10 +83,6 @@ class MainActivity : AppCompatActivity() {
             val searchManager = getSystemService(Context.SEARCH_SERVICE) as SearchManager
             (menu.findItem(R.id.search).actionView as SearchView).apply {
                 setSearchableInfo(searchManager.getSearchableInfo(componentName))
-                setOnSearchClickListener {
-                    // Or method to perform search
-                    bookViewModel.updateSearchText(this.query.toString())
-                }
             }
         }
 

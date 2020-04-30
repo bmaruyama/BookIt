@@ -4,26 +4,28 @@
 
 package ca.discretedata.bookit.data
 
-import android.content.Context
-import android.util.Log
 import androidx.lifecycle.LiveData
-import androidx.work.ListenableWorker
+import ca.discretedata.bookit.webservice.BooksApi
 import ca.discretedata.bookit.webservice.VolumeConverter
-import ca.discretedata.bookit.webservice.Volumes
-import ca.discretedata.bookit.workers.SeedDatabaseWorker
-import com.google.gson.Gson
-import com.google.gson.reflect.TypeToken
-import com.google.gson.stream.JsonReader
-import kotlinx.coroutines.coroutineScope
+import retrofit2.Retrofit
+import retrofit2.converter.gson.GsonConverterFactory
 
 class BookRepository private constructor(private val bookDao: BookDao) {
+
+    private val booksApi by lazy {
+        Retrofit.Builder()
+            .baseUrl(baseUrl)
+            .addConverterFactory(GsonConverterFactory.create())
+            .build()
+            .create(BooksApi::class.java)
+    }
 
     fun getBooksForSearchText(searchText: String): LiveData<List<Book>> {
         return bookDao.getSearchTextBooks(searchText)
     }
 
     fun getAllBooks(): LiveData<List<Book>> {
-        return  bookDao.getAllBooks()
+        return bookDao.getAllBooks()
     }
 
     suspend fun insert(book: Book) {
@@ -42,6 +44,11 @@ class BookRepository private constructor(private val bookDao: BookDao) {
         bookDao.deleteAll()
     }
 
+    suspend fun retrieveVolumes(query: String): List<Book> {
+        val volumes = booksApi.listBooks(query)
+        return VolumeConverter.convertVolumes(volumes, query)
+    }
+
     companion object {
         // For Singleton instantiation
         @Volatile
@@ -50,5 +57,7 @@ class BookRepository private constructor(private val bookDao: BookDao) {
         fun getInstance(bookDao: BookDao) = instance ?: synchronized(this) {
             instance ?: BookRepository(bookDao).also { instance = it }
         }
+
+        private val baseUrl = "https://www.googleapis.com/books/v1/"
     }
 }
