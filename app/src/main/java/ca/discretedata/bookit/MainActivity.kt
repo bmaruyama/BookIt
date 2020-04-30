@@ -20,6 +20,7 @@ import ca.discretedata.bookit.data.BookRepository
 import ca.discretedata.bookit.databinding.ActivityMainBinding
 import ca.discretedata.bookit.viewmodels.BookSearchViewModel
 import ca.discretedata.bookit.viewmodels.BookSearchViewModelFactory
+import com.bumptech.glide.Glide
 
 
 class MainActivity : AppCompatActivity() {
@@ -33,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
 
         val recyclerView = binding.bookList
-        val adapter = BookAdapter()
+        val adapter = BookAdapter(Glide.with(this))
         recyclerView.adapter = adapter
         recyclerView.layoutManager = GridLayoutManager(this, 2)
 

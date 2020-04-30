@@ -10,7 +10,6 @@ import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.savedstate.SavedStateRegistryOwner
 import ca.discretedata.bookit.data.BookRepository
-import  ca.discretedata.bookit.viewmodels.BookSearchViewModel
 
 class BookSearchViewModelFactory (
     private val repository: BookRepository,

@@ -12,11 +12,11 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.ListAdapter
 import ca.discretedata.bookit.data.Book
 import ca.discretedata.bookit.databinding.BookListItemBinding
-import ca.discretedata.bookit.viewmodels.BookSearchViewModel
+import com.bumptech.glide.RequestManager
 
-class BookAdapter : ListAdapter<Book, BookAdapter.ViewHolder>(
-    BookDiffCallback()
-) {
+class BookAdapter(private val requestManager: RequestManager) :
+    ListAdapter<Book, BookAdapter.ViewHolder>(BookDiffCallback()) {
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         return ViewHolder(
             BookListItemBinding.inflate(LayoutInflater.from(parent.context), parent, false)
@@ -24,26 +24,28 @@ class BookAdapter : ListAdapter<Book, BookAdapter.ViewHolder>(
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.bind(getItem(position))
+        holder.bind(getItem(position), requestManager)
     }
 
     class ViewHolder(
         private val binding: BookListItemBinding
     ) : RecyclerView.ViewHolder(binding.root)  {
 
-        fun bind(book: Book) {
+        fun bind(book: Book, requestManager: RequestManager) {
             with(binding) {
                 bookTitle.text = book.title
                 bookAuthors.text = book.authors
                 // TODO: leave jacket image display for later
-                if (book.jacketUrl.isNullOrEmpty()) {
+                if (book.jacketUrl.isEmpty()) {
                     // An empty URL means only show title and authors
                     imageLayout.visibility = View.GONE
                     textLayout.visibility = View.VISIBLE
+                    requestManager.clear(bookJacket)
                 } else {
                     // A valid URL means show the jacket only
                     imageLayout.visibility = View.VISIBLE
                     textLayout.visibility = View.GONE
+                    requestManager.load(book.jacketUrl).into(bookJacket)
                 }
             }
         }

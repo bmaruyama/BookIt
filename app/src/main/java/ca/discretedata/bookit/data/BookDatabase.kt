@@ -9,12 +9,10 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.sqlite.db.SupportSQLiteDatabase
-import androidx.work.OneTimeWorkRequest
 import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkManager
 import ca.discretedata.bookit.workers.SeedDatabaseWorker
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.launch
+
 
 @Database(entities = [Book::class], version = 1, exportSchema = false)
 abstract class BookDatabase : RoomDatabase() {
